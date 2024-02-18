@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/djascorp/task-m/compare/v0.1.2...v0.1.3) (2024-02-18)
+
+
+### Features
+
+* **database:** install and init config prisma orm ([30ef285](https://github.com/djascorp/task-m/commit/30ef285dd66fe8bf06540d745d78a2661c32800c))
+* **project:** add project schema to the prisma schema ([d1314df](https://github.com/djascorp/task-m/commit/d1314df0914cbd7c37cf16bb065d30a9af90af76))
+* **project:** user can create project ([e2e05f6](https://github.com/djascorp/task-m/commit/e2e05f672b484a2dd76db2202120a4b038d75673))
+
 ### [0.1.2](https://github.com/djascorp/task-m/compare/v0.1.1...v0.1.2) (2024-02-18)
 
 
