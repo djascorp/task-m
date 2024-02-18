@@ -1,5 +1,10 @@
 import SidebarClose from "@/components/ui/close-sidebar-btn";
 import Image from "next/image";
+import { SIDE_MENU_LIST } from "@/config/menu";
+import Link from "next/link";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { LayoutDashboard } from "lucide-react"; 
+import SideNavMenuItem from "@/components/menu/SideNavMenuItem";
 
 export default function Sidebar() {
 
@@ -18,10 +23,16 @@ export default function Sidebar() {
                     />
                 </div>
                 <div className="block md:hidden">
-                <SidebarClose />
+                    <SidebarClose />
                 </div>
             </div>
-            Sidebar
+            <ScrollArea className="px-main-padding">
+                <div className=" flex flex-col py-3 gap-2">
+                    {SIDE_MENU_LIST.map(menu => (
+                        <SideNavMenuItem menu={menu} />
+                    ))}
+                </div>
+            </ScrollArea>
         </div>
     )
 }
