@@ -18,7 +18,7 @@ export default async function ProjectPage() {
                 {projects.map(project => (
                     <Card key={project.id}>
                         <CardHeader>{project.name}</CardHeader>
-                        {project.description && <CardContent>{project.description}</CardContent>}
+                        {project.description && <CardContent className="text-muted-foreground text-sm">{project.description}</CardContent>}
                     </Card>
                 ))}
             </div>
