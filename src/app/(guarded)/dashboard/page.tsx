@@ -1,7 +1,9 @@
-export default function Dashboard(){
+import PageTitle from "@/components/pages/PageTitle";
+
+export default function DashboardPage(){
     return (
         <div className="">
-            Dashboard
+            <PageTitle>Dashboard</PageTitle>
         </div>
     )
 }

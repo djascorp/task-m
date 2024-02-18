@@ -7,7 +7,7 @@ export default function GuardedLayout({ children }: { children: ReactNode }) {
             <Sidebar />
             <div className="w-full">
                 <Header />
-                <div className="content">
+                <div className="content p-main-padding">
                     {children}
                 </div>
             </div>
